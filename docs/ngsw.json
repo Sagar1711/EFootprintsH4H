@@ -1,0 +1,103 @@
+{
+  "configVersion": 1,
+  "timestamp": 1665326737202,
+  "index": "/front-end/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/front-end/favicon.ico",
+        "/front-end/index.html",
+        "/front-end/main.96ba1c979a81bb28.js",
+        "/front-end/manifest.webmanifest",
+        "/front-end/polyfills.ea351ada15ba48e7.js",
+        "/front-end/runtime.4e0c56916b8eafde.js",
+        "/front-end/styles.64149f24ab077b0a.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/front-end/about.4a77599d76e52702.png",
+        "/front-end/assets/about.png",
+        "/front-end/assets/arizona-state-university-logo-vertical.png",
+        "/front-end/assets/earth-blue-marble.jpg",
+        "/front-end/assets/earth-night.jpg",
+        "/front-end/assets/earth.png",
+        "/front-end/assets/final_logo_gold_black.png",
+        "/front-end/assets/icons/icon-128x128.png",
+        "/front-end/assets/icons/icon-144x144.png",
+        "/front-end/assets/icons/icon-152x152.png",
+        "/front-end/assets/icons/icon-192x192.png",
+        "/front-end/assets/icons/icon-384x384.png",
+        "/front-end/assets/icons/icon-512x512.png",
+        "/front-end/assets/icons/icon-72x72.png",
+        "/front-end/assets/icons/icon-96x96.png",
+        "/front-end/assets/landing.mp4",
+        "/front-end/assets/logo1.svg",
+        "/front-end/assets/logo2.png",
+        "/front-end/assets/trail-header.mkv"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/front-end/about.4a77599d76e52702.png": "7621d31bcb5ac80a93250aacda4418568082be89",
+    "/front-end/assets/about.png": "7621d31bcb5ac80a93250aacda4418568082be89",
+    "/front-end/assets/arizona-state-university-logo-vertical.png": "32c172f778fdaf7a1d84aa6c2d5f6b0424abe27b",
+    "/front-end/assets/earth-blue-marble.jpg": "b880c8b380ba0bc4ca8d47bab2f928a418b92c4f",
+    "/front-end/assets/earth-night.jpg": "ffaa35fffa10f9276641a27237542650b9567a96",
+    "/front-end/assets/earth.png": "3113ed6d8dc12f21bd457f9fe2d802182bfee533",
+    "/front-end/assets/final_logo_gold_black.png": "42d7b9e842ed74bd857cfa4811919bf596fafcf7",
+    "/front-end/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/front-end/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/front-end/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/front-end/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/front-end/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/front-end/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/front-end/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/front-end/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/front-end/assets/landing.mp4": "b1b6ddba75cf601443656a5edbfbb38f3872777a",
+    "/front-end/assets/logo1.svg": "37ea1adb767f928afae8582377489f34e39c47f4",
+    "/front-end/assets/logo2.png": "f76acbe4d29e3d520bae1b9ec87a1ea3e03b8449",
+    "/front-end/assets/trail-header.mkv": "bb6a378d59205b0c619709aa12ea2f3178804428",
+    "/front-end/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/front-end/index.html": "a2269204fb544039a48a38867ea1ac6c818962ee",
+    "/front-end/main.96ba1c979a81bb28.js": "0bc83d68c045cc62a2e29be902df2d50f8b4bafb",
+    "/front-end/manifest.webmanifest": "eeda60ddf849340de3aa3974dde94048eb3a6f39",
+    "/front-end/polyfills.ea351ada15ba48e7.js": "3651535f10bac35070403f6293d67a9cda7e292c",
+    "/front-end/runtime.4e0c56916b8eafde.js": "61befab781b6c8a397cfe884dccbeb20c3ab4f8d",
+    "/front-end/styles.64149f24ab077b0a.css": "1d52f3482132501bbc3515f0a5bb39ea75aeb96e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
