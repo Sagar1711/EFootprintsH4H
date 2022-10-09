@@ -1,0 +1,11 @@
+<form [formGroup]="commentForm">
+    <div class="row">
+        <mat-form-field appearance="standard">
+            <mat-label>Comment</mat-label>
+            <input matInput placeholder="Post Comment" formControlName="comment">
+            <!-- <mat-icon matSuffix></mat-icon> -->
+            <mat-hint>Comment</mat-hint>
+        </mat-form-field>
+    </div>
+    <button mat-raised-button color="primary" (click)="postComment()">Post</button>
+</form>

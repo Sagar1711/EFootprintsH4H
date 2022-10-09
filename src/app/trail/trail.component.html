@@ -1,0 +1,31 @@
+<div class="trail-header">
+    <div class="left"></div>
+    <div class="right">
+        <video autoplay muted loop>
+            <source src="../../assets/trail-header.mkv" type="video/mp4" />
+        </video>
+    </div>
+</div>
+
+<div class="footprint-trail">
+    <mat-card *ngFor="let data of dataList; let i = index" matBadge="{{data.comments.length}}" matBadgePosition="after" matBadgeColor="accent">
+        <mat-card-title-group>
+            <mat-card-title>{{data.name}}</mat-card-title>
+            <mat-card-subtitle>{{data.subtitle}}</mat-card-subtitle>
+            <img mat-card-sm-image [src]="data.logo" >
+        </mat-card-title-group>
+        <mat-card-content>
+            <canvas baseChart width="400" height="200"
+                [type]="'line'"
+                [data]="data.graphData"
+                [options]="data.chartOptions"
+                [legend]="false">
+            </canvas>
+        </mat-card-content>
+        <mat-divider inset></mat-divider>
+        <mat-card-actions>
+            <button mat-flat-button color="primary">Details</button>
+            <button mat-mini-fab color="accent" (click)="openDialog(i)"><fa-icon [icon]="faPlus"></fa-icon></button>
+        </mat-card-actions>
+    </mat-card>
+</div>

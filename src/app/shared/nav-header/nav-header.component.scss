@@ -1,0 +1,13 @@
+.nav-header {
+    background-color: #225750;
+    color: aliceblue;
+    display: flex;
+    justify-items: flex-start;
+    span:first-child {
+        margin-right: 50px;
+    }
+}
+
+.tilt {
+    transform: rotate(30deg);
+}

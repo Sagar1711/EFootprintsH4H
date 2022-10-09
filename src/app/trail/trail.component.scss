@@ -1,0 +1,41 @@
+.trail-header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    width: 100%;
+    height: 550px;
+    .left {
+        width: 40%;
+        height: 100%;
+    }
+    .right {
+        width: 50%;
+        height: 100%;
+        position: relative;
+        video {
+            position: absolute;
+            z-index: 0;
+            object-fit: fill;
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+.footprint-trail {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px;
+    justify-content: center;
+    .mat-card {
+        width: 400px;
+        margin-bottom: 25px;
+        margin-right: 25px;
+    }
+    mat-card-actions {
+        padding: 5px 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
